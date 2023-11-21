@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@500&display=swap');
+
+*{ margin: 0;
+padding: 0;}
+
+body {
+    background-color: rgb(246, 234, 234);
+}
+
+.web_info {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    font-family: 'Mukta Vaani', sans-serif; 
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.nav_data {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.spotify_logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.spotify_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0 15;
+}
+
+.bottom {
+    position: sticky;
+    height: 130;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progress_bar {
+    cursor: pointer;
+    width: 70vw;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Mukta Vaani', sans-serif;
+    background-color: rgb(29, 35, 29);
+    color: aliceblue;
+    width: 70%;
+    min-height: 65vh;
+    margin:23px auto;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('https://imgs.search.brave.com/6UOFtoqjzXQyz1cgavtZ8n4N0LoL_9iq-eyn0Mkh7co/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZmlyZS1mb3Jj/ZS1lZWRienRya2lz/azdiNWM3LmpwZw');
+    background-size: cover ;
+    flex-direction: column;
+}
+
+
+.playicon {
+    display: flex;
+     gap:50px;
+    margin-top: 15px;
+cursor: pointer;}
+
+.songitem img{
+    border-radius: 12px;
+    display: flex;
+    width: 70px;
+    margin:0 23px;
+}
+
+.songitem { gap: 20px;
+display: flex;
+flex-direction: row;
+background-color: antiquewhite;
+width: 40%;
+color: black;
+border-radius: 12px;
+margin: 12px 0;
+align-items: center;
+justify-content: space-between;
+height: 50px;
+}
+
+.songlistplay {
+    display: flex;
+    gap: 12px;
+    margin: 0 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.songinfo img {
+    display: flex;
+    width: 50px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.songinfo {
+    font-family: 'Mukta Vaani', sans-serif; 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: absolute;
+    left: 15vw;
+}
+
+
+
+
